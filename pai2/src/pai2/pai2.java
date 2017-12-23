@@ -28,14 +28,14 @@ public class pai2 {
                 
             }
             
-  //          while ((inputLine = in.readLine()) != null) {
-  //            	Matcher ml = l.matcher(inputLine);
-   //             if (ml.find( )) {
-  //                	System.out.println(ml.group());
-  //                 	System.out.println("\n");
+          while ((inputLine = in.readLine()) != null) {
+             	Matcher ml = l.matcher(inputLine);
+               if (ml.find( )) {
+                	System.out.println(ml.group());
+                   	System.out.println("\n");
 
- //               }
-//            }
+                }
+           }
             
             in.close(); 
         } catch (MalformedURLException me) {
